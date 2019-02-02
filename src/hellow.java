@@ -3,10 +3,8 @@ import java.util.Scanner;
 public class hellow {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
-        double a = 1000;
-        for (int i = 1; i <=100;i++){
-            a = a *1.1;
-
+        String a = input.nextLine();
+        if (a.equals("你是谁")){
+            System.out.println("s");
         }
-        System.out.println(a/1000);
 }}
